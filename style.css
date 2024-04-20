@@ -100,10 +100,8 @@ button:hover {
 .solution__cards {
     padding-top: 70px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 20px;
-    flex-wrap: wrap;
 }
 
 
@@ -119,6 +117,7 @@ button:hover {
     .solution__cards {
         justify-content: center;
         flex-direction: column;
+        flex-wrap: wrap;
     }
 }
 
